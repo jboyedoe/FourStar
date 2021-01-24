@@ -1,0 +1,90 @@
+
+  body{
+      background-color:#FDF8F8;
+  }
+
+  #main-header {
+    margin-top: 40px;
+    width: 30%;
+    height: 20vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #bab2b5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px black;
+  }
+  
+  #username-field{
+    padding: 0px 20px;
+    margin-top: 70px;
+    width: 50%;
+    height: 10vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #eee2dc;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  #password-field{
+    padding: 0px 20px;
+    margin-top: 40px;
+    width: 50%;
+    height: 10vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #eee2dc;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  #login-all{
+      width: 80%;
+      padding-top:30px;
+      height: 100%;
+  }
+
+  
+  #login-form {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  
+  .login-form-field::placeholder {
+    color: #3a3a3a;
+    font-size: 20px;
+  }
+  
+  .login-form-field {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    border-style: groove;
+  }
+  
+  #login-form-submit {
+    width: 10%;
+    padding: 7px;
+    border: none;
+    margin-top:30px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: #eee2dc;
+    cursor: pointer;
+    border: 2px groove ;
+  }
+
+  #login-form-submit:hover {
+    background-color: #bab2b5;
+    color: black;
+    border: 2px groove;
+  }
