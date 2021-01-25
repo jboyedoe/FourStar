@@ -3,17 +3,17 @@
   <head>
     <title>BizConnect - Connecting Small Businesses and Influencers</title>
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/log-in.css">
+    <link rel="stylesheet" href="../assets/css/sign-up.css">
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
   </head>
 <body>
 <div class="nav">
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
-      <a href="index-2.html">
-        <img src="../assets/img/logo.png" alt="BizConnect Logo" style="width:100px;height:58px;">
-      </a>
+    <a href="index-2.html">
+      <img src="../assets/img/logo.png" alt="BizConnect Logo" style="width:100px;height:58px;">
+    </a>
   </div>
   <div class="nav-btn">
     <label for="nav-check">
@@ -32,11 +32,15 @@
   
 <center>
   <div id="login-all">
-    <img src="../assets/img/logo.png" alt="BizConnect Logo" style="width:325px;height:208px;" id="main-header">
+    <img src="../assets/img/logo.png" alt="BizConnect Logo" style="width:250px;height:160px;" id="main-header">
+    
     <div id="login-form">
+      <input type="text" name="email" id="email-field" class="login-form-field" placeholder="Email">
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-      <button id="login-form-submit" onclick="location.href = 'index.html'">Login</button>
+      <input type="password" name="password-check" id="password-check-field" class="login-form-field" placeholder="Confirm Password">
+
+      <button id="login-form-submit" onclick="location.href = 'choose.html'">Sign Up</button>
     </div>
   
   </div>

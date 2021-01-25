@@ -3,7 +3,7 @@
   <head>
     <title>BizConnect - Connecting Small Businesses and Influencers</title>
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/log-in.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/choose.css">
 
     <link rel="stylesheet" type="text/css" href="../assets/css/navbar.css">
   </head>
@@ -31,14 +31,23 @@
 
   
 <center>
-  <div id="login-all">
-    <img src="../assets/img/logo.png" alt="BizConnect Logo" style="width:325px;height:208px;" id="main-header">
-    <div id="login-form">
-      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-      <button id="login-form-submit" onclick="location.href = 'index.html'">Login</button>
+  <div id="content">
+    <center>
+    <img src="../assets/img/logo.png" alt="BizConnect Logo" style="width:250px;height:160px;" id="main-header">
+    <div class="container">
+      <div id="influencer" onclick="document.getElementById('influencer').style.backgroundColor = 'lightgray'">
+          <p>
+        <strong>Influencer</strong>
+    </p>
+        </div>
+    <div id="small-business" onclick="document.getElementById('small-business').style.backgroundColor = 'lightgray'">
+        <p>
+            <strong> Small Business </strong>
+    </p>
+        </div> 
     </div>
-  
+    <button id="login-form-submit" onclick="location.href = 'set-up.html'">Continue</button>
+    </center>
   </div>
 </center>
 </body>

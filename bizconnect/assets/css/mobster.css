@@ -2129,7 +2129,7 @@ hr {
 .page-hero-section {
   position: relative;
   height: 80vh;
-  width:10%;
+  width:100%;
 }
 
 .page-hero-section h1 {
@@ -2137,7 +2137,7 @@ hr {
 }
 
 .page-hero-section .hero-caption {
-  height: 80%;
+  height: 100%;
 }
 
 
