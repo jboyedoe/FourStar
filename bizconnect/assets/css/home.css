@@ -9,7 +9,7 @@
     padding-top: 60px;
     height: 100vH;
     background: url("../img/bizconnect.png") center no-repeat fixed;
-    background-size:auto;
+    background-size: fill;
 }
 
 #intro::before{

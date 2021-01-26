@@ -12,10 +12,11 @@ body {
   width: 100%;
   background-color: #eee2dc;
   position: fixed;
+  z-index: 4;
 }
 
 .nav > .nav-header {
-  display: inline;
+  display: inline-block;
 }
 
 .nav > .nav-header{
@@ -34,7 +35,7 @@ body {
 }
 
 .nav > .nav-links{
-  margin-top: 1.25px;
+  margin-top: -10px;
   display: inline;
   float: right;
   font-size: 18px;
@@ -58,6 +59,15 @@ body {
 
 .nav-links{
   padding-left: 30px;
+}
+
+.nav-links p {
+  float:left;
+  padding-bottom: 10px;
+}
+
+.star-icon{
+  float:right;
 }
 
 @media (max-width:600px) {
