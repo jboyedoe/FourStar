@@ -1,0 +1,33 @@
+
+  body{
+    width:100%;
+    height:1000vh;
+}
+
+#intro{
+    z-index: 1;
+    padding-top: 60px;
+    height: 100vH;
+    background: url("../img/bizconnect.png") center no-repeat fixed;
+    background-size:auto;
+}
+
+#intro::before{
+    z-index: 1;
+    padding-top: 60px;
+    align-self: center;
+    display: block;
+    content: "";
+    height: 100vH;
+    background: url("../img/home_back.png") center no-repeat fixed;
+    background-size: cover;
+    opacity: 0.15;
+}
+
+#center-logo{
+    margin-top:-1000px;
+}
+
+.nav > .nav-links{
+    margin-top: 0px;
+}
