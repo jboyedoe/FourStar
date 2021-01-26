@@ -14,7 +14,16 @@ body{
     box-shadow: 0px 0px 2px 2px black;
   }
 
+center > h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 20px;
 
+    color: #123C69;
+
+}
 /* The sidebar menu */
 .sidenav {
   height: 450px; /* Full-height: remove this if you want "auto" height */
@@ -60,7 +69,7 @@ body{
 }
 */
 
-center > .profile_img_1{
+center > a> .profile_img_1{
         position: absolute;
         width: 286px;
         height: 250px;
@@ -69,7 +78,7 @@ center > .profile_img_1{
 
         background-color: #BAB2B5;
     }
-center > .profile_img_2{
+center > a> .profile_img_2{
         position: absolute;
         width: 286px;
         height: 250px;
@@ -78,7 +87,7 @@ center > .profile_img_2{
 
         background-color: #BAB2B5;
     }
-center > .profile_img_3{
+center > a> .profile_img_3{
         position: absolute;
         width: 286px;
         height: 250px;
@@ -87,7 +96,7 @@ center > .profile_img_3{
 
         background-color: #BAB2B5;
     }
-center > .profile_img_4{
+center > a> .profile_img_4{
         position: absolute;
         width: 286px;
         height: 250px;
@@ -97,7 +106,7 @@ center > .profile_img_4{
 
         background-color: #BAB2B5;
     }
-center > .profile_img_5{
+center > a> .profile_img_5{
         position: absolute;
         width: 286px;
         height: 250px;
@@ -106,7 +115,7 @@ center > .profile_img_5{
 
         background-color: #BAB2B5;
     }
-center > .profile_img_6{
+center > a> .profile_img_6{
         position: absolute;
         width: 286px;
         height: 250px;
@@ -115,6 +124,8 @@ center > .profile_img_6{
 
         background-color: #BAB2B5;
     }
+
+
 
 #search-form {
   align-self: flex-start;
@@ -157,4 +168,8 @@ center > .profile_img_6{
   background-color: #eee2dc;
   cursor: pointer;
   border: 2px groove ;
+}
+
+body {
+    padding-bottom: 650px;
 }
