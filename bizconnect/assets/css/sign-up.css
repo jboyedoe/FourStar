@@ -4,7 +4,6 @@
 }
 
 #main-header {
-  margin-top: 15px;
   width: 30%;
   height: 5vh;
   display: grid;
@@ -27,7 +26,7 @@
   justify-items: center;
   align-items: center;
   font-size: 30px;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .login-form-field::placeholder {
@@ -36,12 +35,9 @@
 }
 
 .login-form-field {
-  border: none;
-  border-radius: 3px;
-  outline: none;
-  border-style: groove;
+  border:none;
   padding: 0px 20px;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 50%;
   height: 10vh;
   display: grid;
@@ -53,21 +49,20 @@
 }
 
 #login-form-submit {
-  width: 10%;
-  padding: 7px;
+  width: 30%;
+  padding: 15px 10px;
   border: none;
   margin-top:30px;
-  margin-bottom: 40px;
-  border-radius: 5px;
-  color: black;
+  border-radius: 10px;
+  color: #AC3B61;
   font-weight: bold;
   background-color: #eee2dc;
   cursor: pointer;
   border: 2px groove ;
+  border-radius: 15px;
 }
 
 #login-form-submit:hover {
   background-color: #bab2b5;
-  color: black;
-  border: 2px groove;
+  color: #123c69;
 }
