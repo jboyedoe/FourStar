@@ -1,0 +1,158 @@
+
+center > #carousel {
+    width: 95%;
+    height: 475px;
+    background-color: #123C69;
+    overflow: auto;
+    white-space:nowrap;
+    }
+
+center > #carousel .slide {
+    display: inline-block;
+}
+
+body > h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #123C69;
+
+}
+
+body > h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 10px;
+    text-align: center;
+
+    color: #123C69;
+
+}
+
+body > .block_1{
+        position: absolute;
+        width: 269px;
+        height: 213px;
+        left: 38px;
+        top: 175px;
+
+        background: #BAB2B5;
+    }
+body > .block_1 > p{
+       position: absolute;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 59px;
+        text-align: center;
+
+        color: #123C69;
+}
+
+body > .block_2{
+        position: absolute;
+        width: 700px;
+        height: 213px;
+        left: 378px;
+        top: 175px;
+
+        background: #BAB2B5;
+}
+
+body > .block_2 > p{
+        position: absolute;
+        left: 240px;
+        top: 40px;
+    
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 45px;
+        line-height: 53px;
+        text-align: center;
+
+        color: #123C69;
+}
+
+body > .block_3{
+        position: absolute;
+        width: 334px;
+        height: 180px;
+        left: 289px;
+        top: 1025px;
+
+        background: #EEE2DC;
+        border-radius: 80px;
+}
+
+body > .block_3 > p{
+        position: absolute;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 46px;
+        text-align: center;
+
+        color: #123C69;
+}
+
+body > a > .review_button{
+        position: absolute;
+        width: 334px;
+        height: 140px;
+        left: 712px;
+        top: 1045px;
+
+        background: #EEE2DC;
+        border-radius: 80px;
+}
+
+body > a> .review_button > p{
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 46px;
+        text-align: center;
+    
+        color: #123C69;
+        
+}
+
+body > a> .connect_button{
+        position: absolute;
+        width: 244px;
+        height: 90px;
+        left: 1105px;
+        top: 208px;
+
+        background: #EEE2DC;
+        border-radius: 80px;
+}
+
+body > a > .connect_button > p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 0px;
+            text-align: center;
+
+        color: #AC3B61;
+}
+
+body {
+    padding-bottom: 300px;
+}
