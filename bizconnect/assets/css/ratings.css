@@ -26,7 +26,7 @@ body > .box_1{
     position: absolute;
     width: 1043px;
     height: 214px;
-    left: 151px;
+    left: 13%;
     top: 202px;
     
     background: #EEE2DC;
@@ -36,7 +36,7 @@ body > .box_2{
     position: absolute;
     width: 1043px;
     height: 214px;
-    left: 151px;
+    left: 13%;
     top: 452px;
     
     background: #EEE2DC;
@@ -46,7 +46,7 @@ body > .box_3{
     position: absolute;
     width: 1043px;
     height: 214px;
-    left: 151px;
+    left: 13%;
     top: 702px;
     
     background: #EEE2DC;
@@ -54,15 +54,18 @@ body > .box_3{
 
 .box_4{
     position: absolute;
-    left: 76.26%;
     right: 1.56%;
-    top: 14.79%;
-    bottom: 74.9%;
-
+    top: 11%;
     background: #EEE2DC;
     border-radius: 30px;
+    width: 300px;
+    color: #AC3B61;
 }
 
+.box_4:hover{
+    color: #123C69;
+    background: #bab2b5;
+}
 .box_4 > p{
     font-family: Roboto;
 font-style: normal;
@@ -70,8 +73,8 @@ font-weight: normal;
 font-size: 36px;
 line-height: 0px;
     text-align: center;
+    margin-left:5px;
 
-color: #AC3B61;
     
 }
 

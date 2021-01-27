@@ -23,12 +23,13 @@ body > h2{
 
 body > .box_1 {
     position: absolute;
-    width: 189px;
-    height: 172px;
+    width: 200px;
+    height: 100px;
     left: 42px;
     top: 222px;
-
+    border-radius: 10px;
     background: #EEE2DC;
+    text-align: center;
 }
 
 body > .box_1 > p{
@@ -36,9 +37,8 @@ body > .box_1 > p{
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
-    line-height: 47px;
     text-align: center;
-
+    margin-top:28px;
     color: #123C69;
 }
 

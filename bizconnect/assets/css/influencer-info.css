@@ -80,7 +80,7 @@ body > .block_3{
         width: 370px;
         height: 140px;
         left: 289px;
-        top: 1025px;
+        top: 1075px;
 
         background: #EEE2DC;
         border-radius: 80px;
@@ -103,7 +103,7 @@ body > a > .review_button{
         width: 370px;
         height: 140px;
         right: 279px;
-        top: 1025px;
+        top: 1075px;
         color: #AC3B61;
         background: #EEE2DC;
         border-radius: 80px;
@@ -129,7 +129,7 @@ body > a> .connect_button{
         position: absolute;
         width: 244px;
         height: 90px;
-        left: 1100px;
+        left: 1150px;
         top: 230px;
 
         background: #EEE2DC;
@@ -152,4 +152,13 @@ body > a> .connect_button{
 
 body {
     padding-bottom: 250px;
+}
+
+.insta{
+    margin-top:220px;
+    margin-left:105px;
+}
+
+.part2{
+        margin-top:100px;
 }
