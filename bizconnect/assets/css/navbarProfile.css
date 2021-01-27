@@ -59,16 +59,23 @@ body {
 }
 
 .nav-links{
+  height:59px;
   padding-left: 30px;
 }
 
+.idkwhythissodifficult{
+  height:59px;
+}
 .nav-links p {
+  font-size: 22px;
   float:left;
-  padding-bottom: 10px;
+  margin-top:4;
+  margin-right:4;
 }
 
 .star-icon{
   float:right;
+  margin-left:10px;
 }
 
 @media (max-width:600px) {
