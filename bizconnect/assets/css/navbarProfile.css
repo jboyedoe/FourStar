@@ -13,6 +13,7 @@ body {
   background-color: #eee2dc;
   position: fixed;
   z-index: 4;
+  border: 1px solid black;
 }
 
 .nav > .nav-header {

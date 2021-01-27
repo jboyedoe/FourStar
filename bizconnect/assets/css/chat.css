@@ -1,0 +1,138 @@
+body{
+    background-color:white;
+    height:100%;
+}
+
+#icon{
+    margin-top: -40px;
+}
+
+center > h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 20px;
+    padding-top: 100px;
+  color: #123C69;
+  margin-left: 200px;
+  
+
+}
+/* The sidebar menu */
+.sidenav {
+height: 100%; /* Full-height: remove this if you want "auto" height */
+width: 198px; /* Set the width of the sidebar */
+position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+/*z-index: 1; Stay on top */
+top: 150px; /* Stay at the top */
+left: 0;
+background-color: #eee2dc; /* Black */
+margin-top:-90px;
+border: 1px solid black;
+}
+
+/* The navigation menu links */
+.sidenav .previous {
+  position: static;
+  width: 121px;
+  height: 30px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 30px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 5px;
+}
+
+.prev1{
+  padding-top: 35px;
+  color: #AC3B61;
+}
+
+.prev1:hover, .prev2:hover, .prev3:hover, .prev4:hover, .prev5:hover, .prev6:hover{
+  color: #AC3B61;
+}
+.prev2{
+padding-top: 115px;
+color: #123C69;
+}
+
+.prev3, .prev4, .prev5, .prev5, .prev6{
+  color: #123C69;
+  padding-top: 110px;
+}
+
+.credits{
+  padding: 5px 5px;
+  background-color: #eee2dc;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: #AC3B61;
+  margin-top:-84px;
+  margin-right:650px;
+}
+
+.credits:hover{
+  background-color: #bab2b5;
+  color:#123c69
+}
+
+.credits p{
+  font-size: 16px;
+}
+
+.main-chat img{
+  margin-top:-60px;
+  margin-left:1150px;
+}
+
+/* When you mouse over the navigation links, change their color */
+/*.sidenav a:hover {
+color: #f1f1f1;
+}
+*/
+
+.message::placeholder{
+  color:#AC3B61;
+}
+.message {
+border: none;
+border-radius: 10px;
+outline: none;
+border-style: groove;
+padding: 0px 20px;
+margin-top: 71.5vH;
+width: 70%;
+height: 10vh;
+background-color: #bab2b5;
+border-radius: 10px;
+font-size: 20px;
+margin-left: 200px;
+}
+
+#search-form-submit {
+width: 10%;
+padding: 7px;
+border: none;
+margin-top:30px;
+border-radius: 5px;
+color: black;
+font-weight: bold;
+background-color: #eee2dc;
+cursor: pointer;
+border: 2px groove ;
+}
+
+body {
+  padding-bottom: 650px;
+}
