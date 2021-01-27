@@ -3,7 +3,7 @@ center > #carousel {
         padding-top:10px;
     width: 95%;
     height: 475px;
-    background-color: #123C69;
+    background-color: #AC3B61;
     overflow: auto;
     white-space:nowrap;
     }
@@ -19,7 +19,7 @@ body > h1{
     font-size: 64px;
     line-height: 20px;
     text-align: center;
-        padding-top: 100px;
+    padding-top: 110px;
     color: #123C69;
 
 }
@@ -38,47 +38,38 @@ body > h2{
 
 body > .block_1{
         position: absolute;
-        width: 269px;
-        height: 213px;
+        width: 230px;
+        height: 230px;
         left: 38px;
-        top: 175px;
+        top: 160px;
 
-        background: #BAB2B5;
+        background: url("../img/molly.jpg");
+        background-size: cover;
+        border-radius: 200px;
+        border: 5px groove #EEE2DC;
     }
-body > .block_1 > p{
-       position: absolute;
-        
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 50px;
-        line-height: 59px;
-        text-align: center;
-
-        color: #123C69;
-}
 
 body > .block_2{
         position: absolute;
         width: 700px;
-        height: 213px;
-        left: 378px;
-        top: 175px;
-
-        background: #BAB2B5;
+        height: 180px;
+        left: 374px;
+        top: 190px;
+        border-radius: 10px;
+        border: black 1px groove;
+        background: #EEE2DC;
 }
 
 body > .block_2 > p{
         position: absolute;
-        left: 240px;
-        top: 40px;
-    
-    
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 45px;
-        line-height: 53px;
+        margin-top: 38px;
+        margin-left: 25px;
+        width:650px;
+        font-size: 20px;
+        line-height: 20px;
         text-align: center;
 
         color: #123C69;
@@ -86,35 +77,34 @@ body > .block_2 > p{
 
 body > .block_3{
         position: absolute;
-        width: 334px;
-        height: 180px;
+        width: 370px;
+        height: 140px;
         left: 289px;
         top: 1025px;
 
         background: #EEE2DC;
         border-radius: 80px;
+        text-align: center;
 }
 
 body > .block_3 > p{
         position: absolute;
-
+        margin-top:40px;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
         font-size: 48px;
-        line-height: 46px;
-        text-align: center;
-
-        color: #123C69;
+        margin-left: 20px;
+        color: #AC3B61;
 }
 
 body > a > .review_button{
         position: absolute;
-        width: 334px;
+        width: 370px;
         height: 140px;
-        left: 712px;
-        top: 1045px;
-
+        right: 279px;
+        top: 1025px;
+        color: #AC3B61;
         background: #EEE2DC;
         border-radius: 80px;
 }
@@ -127,32 +117,38 @@ body > a> .review_button > p{
         font-size: 48px;
         line-height: 46px;
         text-align: center;
-    
-        color: #123C69;
         
+}
+
+.review_button:hover{
+        background:#bab2b5;
+        color:#123C69;
 }
 
 body > a> .connect_button{
         position: absolute;
         width: 244px;
         height: 90px;
-        left: 1105px;
-        top: 208px;
+        left: 1170px;
+        top: 230px;
 
         background: #EEE2DC;
         border-radius: 80px;
-}
-
-body > a > .connect_button > p{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 48px;
-        line-height: 0px;
-            text-align: center;
-
         color: #AC3B61;
+        font-size: 48px;
+        font-family: Roboto;
+        text-align: center;
 }
+
+.connect_button:hover{
+        background:#bab2b5;
+        color:#123C69;
+}
+
+.connect_button p{
+        margin-top:17px;
+}
+
 
 body {
     padding-bottom: 250px;
