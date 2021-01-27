@@ -1,0 +1,101 @@
+body > h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 20px;
+    text-align: center;
+        padding-top: 100px;
+    color: #123C69;
+
+}
+
+body > h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 10px;
+    text-align: center;
+        padding-top: 30px;
+    color: #123C69;
+
+}
+
+body > .box_1{
+    position: absolute;
+    width: 1043px;
+    height: 214px;
+    left: 151px;
+    top: 202px;
+    
+    background: #EEE2DC;
+}
+
+body > .box_2{
+    position: absolute;
+    width: 1043px;
+    height: 214px;
+    left: 151px;
+    top: 452px;
+    
+    background: #EEE2DC;
+}
+
+body > .box_3{
+    position: absolute;
+    width: 1043px;
+    height: 214px;
+    left: 151px;
+    top: 702px;
+    
+    background: #EEE2DC;
+}
+
+.box_4{
+    position: absolute;
+    left: 76.26%;
+    right: 1.56%;
+    top: 14.79%;
+    bottom: 74.9%;
+
+    background: #EEE2DC;
+    border-radius: 30px;
+}
+
+.box_4 > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 0px;
+    text-align: center;
+
+color: #AC3B61;
+    
+}
+
+.review-text{
+    position: absolute;
+left: 2.66%;
+right: 2.66%;
+top: 5.81%;
+bottom: 8.85%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #123C69;
+}
+
+.review-text > .star-icon{
+    top: 20.35%;
+    bottom: 21.24%;
+}
+
+body {
+    padding-bottom: 800px;
+}
