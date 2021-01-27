@@ -60,6 +60,7 @@
   cursor: pointer;
   border: 2px groove ;
   border-radius: 15px;
+  margin-bottom: 30px;
 }
 
 #login-form-submit:hover {
