@@ -24,9 +24,9 @@ body > h2{
 
 body > .box_1{
     position: absolute;
-    width: 1043px;
+    width: 933px;
     height: 214px;
-    left: 13%;
+    left: 27%;
     top: 202px;
     
     background: #EEE2DC;
@@ -34,9 +34,9 @@ body > .box_1{
 
 body > .box_2{
     position: absolute;
-    width: 1043px;
+    width: 933px;
     height: 214px;
-    left: 13%;
+    left: 27%;
     top: 452px;
     
     background: #EEE2DC;
@@ -44,9 +44,9 @@ body > .box_2{
 
 body > .box_3{
     position: absolute;
-    width: 1043px;
+    width: 933px;
     height: 214px;
-    left: 13%;
+    left: 27%;
     top: 702px;
     
     background: #EEE2DC;
@@ -97,6 +97,72 @@ color: #123C69;
 .review-text > .star-icon{
     top: 20.35%;
     bottom: 21.24%;
+}
+
+.profile_img_1{
+    position: absolute;
+    width: 230px;
+    height: 196px;
+    left: 60px;
+    top: 200px;
+
+    background: url(../img/molly.jpg);
+    background-size: cover;
+}
+.profile_img_1:hover{
+  opacity:0.7;
+}
+.info{
+  padding:10px 10px;
+  align-items:inline-flex;
+  margin-top:190px;
+  background-color:#eee2dc;
+  width:100%;
+  height:50px;
+}
+
+.info p{
+  font-size:22px;
+  float:left;
+  color: #AC3B61;
+  letter-spacing: 1px;
+   margin:auto;
+}
+
+.info > .rating{
+  float:right;
+  margin-top:-28px;
+}
+
+.info > .rating > img{
+  margin-top:3px;
+
+}
+
+.info > .social{
+  margin-right: 53px;
+}
+
+
+.sidenav > .box_2{
+    position: absolute;
+    width: 230px;
+    height: 387.73px;
+    left: 60px;
+    top: 484px;
+
+    background: #EEE2DC;
+}
+
+.sidenav > .box_2 > p{
+   font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #123C69;
 }
 
 body {
