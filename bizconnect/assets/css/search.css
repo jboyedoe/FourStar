@@ -1,5 +1,5 @@
 body{
-  background-color:#FDF8F8;
+  background-color:white;
 }
 
 #main-header {
@@ -68,68 +68,128 @@ flex-grow: 0;
 margin: 0px 30px;
 }
 
+select{
+  background: transparent;
+  border:none;
+  margin-left:-8px;
+}
 /* When you mouse over the navigation links, change their color */
 /*.sidenav a:hover {
 color: #f1f1f1;
 }
 */
 
-center > a> .profile_img_1{
+#search-on{
+  margin-top:-56px;
+  margin-right: 580px;
+}
+
+.info{
+  padding:10px 10px;
+  align-items:inline-flex;
+  margin-top:200px;
+  background-color:#BAB2B5;
+  width:100%;
+  height:50px;
+}
+
+.info p{
+  font-size:22px;
+  float:left;
+  color: #AC3B61;
+  letter-spacing: 1px;
+   margin:auto;
+}
+
+.info > .rating{
+  float:right;
+  margin-top:-28px;
+}
+
+.info > .rating > img{
+  margin-top:3px;
+
+}
+
+.info > .social{
+  margin-right: 53px;
+}
+
+.profile_img_1{
     position: absolute;
     width: 286px;
     height: 250px;
     left: 243px;
     top: 300px;
 
-    background-color: #BAB2B5;
+    background: url(../img/molly.jpg);
+    background-size: cover;
 }
-center > a> .profile_img_2{
+.profile_img_2{
     position: absolute;
     width: 286px;
     height: 250px;
     left: 616px;
     top: 300px;
 
-    background-color: #BAB2B5;
+    background: url(../img/Niket.jpg);
+    background-size: cover;
 }
-center > a> .profile_img_3{
+.profile_img_3{
     position: absolute;
     width: 286px;
     height: 250px;
     left: 991px;
     top: 300px;
-
-    background-color: #BAB2B5;
+    background: url(../img/Chloe.jpg);
+    background-size: cover;
 }
-center > a> .profile_img_4{
+.profile_img_4{
     position: absolute;
     width: 286px;
     height: 250px;
     left: 616px;
     top: 600px;
-
-
-    background-color: #BAB2B5;
+    background: url(../img/Myles.jpg);
+    background-size: cover;
 }
-center > a> .profile_img_5{
+.profile_img_5{
     position: absolute;
     width: 286px;
     height: 250px;
     left: 243px;
     top: 600px;
-
-    background-color: #BAB2B5;
+    background: url(../img/Jessica.jpg);
+    background-size: cover;
 }
-center > a> .profile_img_6{
+.profile_img_6{
     position: absolute;
     width: 286px;
     height: 250px;
     left: 991px;
     top: 600px;
-
-    background-color: #BAB2B5;
+    background: url(../img/Tiffany.jpg);
+    background-size: cover;
 }
 
+.profile_img_1:hover{
+  opacity:0.7;
+}
+.profile_img_2:hover{
+  opacity:0.7;
+}
+.profile_img_3:hover{
+  opacity:0.7;
+}
+.profile_img_4:hover{
+  opacity:0.7;
+}
+.profile_img_5:hover{
+  opacity:0.7;
+}
+.profile_img_6:hover{
+  opacity:0.7;
+}
 
 .login-form-field::placeholder {
 color: #3a3a3a;
@@ -141,7 +201,7 @@ border: none;
 border-radius: 3px;
 outline: none;
 border-style: groove;
-padding: 0px 20px;
+padding: 0px 40px;
 margin-top: 50px;
 width: 50%;
 height: 10vh;
