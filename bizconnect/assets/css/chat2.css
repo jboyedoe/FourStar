@@ -161,3 +161,37 @@ border: 2px groove ;
 body {
   padding-bottom: 720px;
 }
+
+.profile-pic { 
+  content: "";
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 300px;
+  border: solid black 1px;
+  margin-top:-80px;
+  margin-left:120px;
+}
+.prev1 > .profile-pic{
+  background-image: url("../img/molly.jpg");
+}
+
+.prev2 > .profile-pic{
+  background-image: url("../img/pricila.jpg");
+}
+
+.prev3 > .profile-pic{
+  background-image: url("../img/Myles.jpg");
+}
+
+.prev4 > .profile-pic{
+  background-image: url("../img/tim.jpg");
+}
+
+.prev5 > .profile-pic{
+  background-image: url("../img/matt.jpg");
+}
+
+.prev6 > .profile-pic{
+  background-image: url("../img/Mae.jpg");
+}
